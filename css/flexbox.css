@@ -1,4 +1,4 @@
-header>.container {
+.cabecalhoPrincipal .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,4 +35,21 @@ header>.container {
     flex-wrap: wrap; */
     flex-flow: column wrap;
     height: 255px;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;  */
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+    margin-bottom: 1%;
+}
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0;
+}
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0%;
 }
